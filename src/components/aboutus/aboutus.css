@@ -1,0 +1,39 @@
+.about-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8rem;
+  margin: 2rem auto;
+  margin-bottom: 8rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.main-p {
+  color: #17a2b8;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  word-spacing: 2px;
+  overflow-wrap: break-word;
+  margin-bottom: 3rem;
+  width: 75%;
+}
+
+.about-doc {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+}

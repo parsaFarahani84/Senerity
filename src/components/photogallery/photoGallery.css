@@ -1,0 +1,44 @@
+.photo-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-photos {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.photo {
+  margin-bottom: -10px;
+  filter: brightness(70%);
+  transition: all 0.6s;
+}
+.photo:hover {
+  filter: brightness(100%);
+}
+
+.photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.photo-header {
+  max-width: 1140px;
+  margin-bottom: 3rem;
+}
+.photo-header h1 {
+  letter-spacing: 1.25px;
+  color: #272c30;
+
+  font-weight: 700;
+}
+.photo-header p {
+  color: #17a2b8 !important;
+  font-size: 1.25rem;
+  text-align: center;
+}

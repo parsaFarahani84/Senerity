@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+header {
+  background-image: url("../../../public/images/tree.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(50%); */
+  font-weight: 600;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 99;
+}
+
+.content-header {
+  padding: 1.8rem 3rem;
+}
+.menu-ul {
+  display: flex;
+}
+
+.menu-ul li {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: rgba(240, 240, 240, 0.904);
+  cursor: pointer;
+}
+.menu-ul a {
+  color: white;
+}
+
+.menu-ul li:hover {
+  color: white;
+}
+
+.header-logo a {
+  color: white;
+  font-size: 1.6rem;
+}
+
+a {
+  background: linear-gradient(0deg, white, white) no-repeat right bottom / 0
+    var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+  padding-bottom: 2px;
+  --bg-h: 2px;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -30%);
+  text-shadow: 0 0 8px rgb(0 0 0 / 60%);
+}
+
+.main-text h1 {
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.main-text h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: -0.6rem;
+}
+
+.main-text p {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  transition: all 0.4s ease-in-out;
+  /* border: none; */
+}
+
+.buttons {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.button {
+  margin-right: 2rem;
+  padding: 1.25rem 3rem;
+  border-radius: 99px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+.blue-b {
+  background-color: #2f5be7;
+  border-color: #2f5be7;
+  color: white;
+}
+
+.simple-b:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.blue-b:hover {
+  box-shadow: inset 0 0 0 300px white;
+  color: black;
+}

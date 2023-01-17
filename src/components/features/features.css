@@ -1,0 +1,56 @@
+.small-t {
+  color: #17a2b8;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.main-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem;
+  color: black;
+  gap: 2rem;
+}
+
+.main-features h1 {
+  font-size: 2rem;
+}
+
+.container {
+  margin-top: 5rem;
+  max-width: 1140px;
+  margin-bottom: 7rem;
+}
+
+.card {
+  box-shadow: 0 1px 9px 0 rgb(30 86 178 / 15%);
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+small {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
